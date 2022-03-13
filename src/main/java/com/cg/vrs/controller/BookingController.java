@@ -33,7 +33,7 @@ public class BookingController {
 	IBookingService iBookingService;
 	private Logger logger = GlobalResources.getLogger(BookingController.class);
 	@PostMapping("/addbooking")
-	public ResponseEntity addBooking(@Valid@RequestBody Booking booking) throws RecordNotFoundException{
+	public ResponseEntity addBooking(@RequestBody Booking booking) throws RecordNotFoundException{
 		String methodName = "addBooking()";
 		logger.info(methodName + "Called");
 		return iBookingService.addBooking(booking);
@@ -47,7 +47,7 @@ public class BookingController {
 	}
 
 	@PutMapping("/updatebooking")
-	public ResponseEntity updateBooking(@Valid@RequestBody Booking b) throws RecordNotFoundException{
+	public ResponseEntity updateBooking(@RequestBody Booking b) throws RecordNotFoundException{
 		String methodName = "updateBooking()";
 		logger.info(methodName + "Called");
 		return iBookingService.updateBooking(b);
