@@ -1,0 +1,5 @@
+2022-03-13 00:09:16,422 INFO com.cg.vrs.controller.CustomerController [http-nio-8089-exec-1] addCustomer()Called
+2022-03-13 12:36:12,331 INFO com.cg.vrs.controller.UserController [http-nio-8089-exec-6] addUser()Called
+2022-03-13 13:24:51,175 INFO com.cg.vrs.controller.BookingController [http-nio-8089-exec-6] updateBooking()Called
+2022-03-13 13:26:13,958 INFO com.cg.vrs.controller.BookingController [http-nio-8089-exec-8] addBooking()Called
+2022-03-13 13:34:40,405 INFO com.cg.vrs.controller.PaymentController [http-nio-8089-exec-10] addPayment()Called
